@@ -13,6 +13,7 @@ import VueTypewriterEffect from "vue-typewriter-effect";
 
 .micontenedor{
     max-width: 52% !important;
+    margin-bottom: 50px
 }
 
 .titulo{
@@ -20,7 +21,24 @@ import VueTypewriterEffect from "vue-typewriter-effect";
 }
 
 .descripcion{
+    margin-top: 2rem;
     font-size: 1.25rem;
     text-transform: uppercase;
+}
+
+@media (max-width: 448px){
+
+.micontenedor{
+    max-width: 100% !important;
+}
+
+.titulo{
+    font-size: 2rem;
+}
+
+.descripcion{
+    margin-top: 4rem;
+}
+
 }
 </style>
