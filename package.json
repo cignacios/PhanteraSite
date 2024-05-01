@@ -12,6 +12,7 @@
     "bootstrap": "^5.3.3",
     "vue": "^3.4.21",
     "vue-router": "^4.3.2",
+    "vue-typewriter-effect": "^1.0.1",
     "vue3-marquee-slider": "^1.0.5"
   },
   "devDependencies": {
