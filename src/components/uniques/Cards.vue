@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="container-fluid">
+  <div class="container py-4">
     <div class="d-grid parent">
     
         <div class="card">
@@ -63,12 +63,13 @@
 
 .parent{
 /* grid-template-columns: repeat(5, 1fr); */
-grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
+grid-template-columns: repeat(5, minmax(260px, 1fr)) !important;
 grid-template-rows: 1fr;
 grid-column-gap: 10px;
 grid-row-gap: 0px;
+overflow: auto;
 }
-
+ 
 .card{
     border: 0px !important;
 }
@@ -123,16 +124,16 @@ img{
     transition: transform 0.3s ease;
 }
 
-img:hover {
+.card:hover img{
   transform: scale(1.3); 
   filter: blur(5px);
 }
 
 
-@media (max-width: 992px){
+@media (min-width: 1200px){
     .parent{
-        grid-template-columns: repeat(5, minmax(260px, 1fr)) !important;
-        overflow: auto;
+        grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)) !important;
+        overflow: visible;
         
 }
 
