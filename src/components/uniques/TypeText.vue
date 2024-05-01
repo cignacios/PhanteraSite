@@ -26,7 +26,7 @@ import VueTypewriterEffect from "vue-typewriter-effect";
     text-transform: uppercase;
 }
 
-@media (max-width: 448px){
+@media (max-width: 768px){
 
 .micontenedor{
     max-width: 100% !important;
