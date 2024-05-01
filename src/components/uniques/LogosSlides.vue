@@ -31,7 +31,7 @@ import '../../../node_modules/vue3-marquee-slider/dist/style.css'
 
 <style scoped>
 .marquee{
-    padding: 7rem 0rem;
+    padding: 9rem 0rem;
 }
  
 .img-fluid{
