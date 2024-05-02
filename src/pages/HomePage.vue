@@ -1,19 +1,21 @@
 <script setup>
-import Navbar from '../components/generals/Navbar.vue'
 import Hero from '../components/uniques/Hero.vue'
 import Cards from '../components/uniques/Cards.vue'
 import LogosSlides from '../components/uniques/LogosSlides.vue'
 import VideoHome from '../components/uniques/VideoHome.vue'
 import TypeText from '../components/uniques/TypeText.vue'
+import SwipeSection from '../components/uniques/SwipeSection.vue'
+import Contact from '../components/generals/Contact.vue'
 </script> 
 
 <template>
-    <Navbar/>
-    <Hero/>
-    <Cards/>
+    <Hero/> 
+    <Cards/> 
     <LogosSlides/>
     <VideoHome/>
     <TypeText/>
+    <SwipeSection/>
+    <Contact/>
 </template>
 
 <style scoped>
