@@ -13,7 +13,7 @@ import Contact from '../components/generals/Contact.vue'
     <Hero/> 
     <Cards/> 
     <LogosSlides/>
-    <VideoHome UrlDesktopVideo="/src//assets/videos/home-desktop.mp4" UrlMobVideo="@/assets/videos/Home-Mobile.mp4"/>
+    <VideoHome UrlDesktopVideo="/src/assets/videos/home-desktop.mp4" UrlMobVideo="/src/assets/videos/Home-Mobile.mp4"/>
     <TypeText/>
     <SwipeSection/>
     <Contact/>
