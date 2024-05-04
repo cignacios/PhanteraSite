@@ -7,10 +7,10 @@ import TypeText from '../components/uniques/TypeText.vue'
 import SwipeSection from '../components/uniques/SwipeSection.vue'
 import Contact from '../components/generals/Contact.vue'
 
-const HomeDesktop = '../assets/home-desktop.mp4'
-const HomeMobile = '../assets/Home-Mobile.mp4'
+const HomeDesktop = '/src/assets/images/home-desktop.mp4'
+const HomeMobile = '/src/assets/images/Home-Mobile.mp4'
 </script> 
-
+ 
 <template>
     <Hero/> 
     <Cards/> 

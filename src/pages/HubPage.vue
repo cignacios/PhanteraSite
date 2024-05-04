@@ -2,8 +2,8 @@
 import VideoHome from '@/components/uniques/VideoHome.vue';
 import CardsHub from '@/components/uniques/CardsHub.vue';
 
-const HubVideo = '../assets/Hub-Video.mp4'
-const HubVideoMob = '../assets/Hub-Mobile.mp4'
+const HubVideo = '/src/assets/images/Hub-Video.mp4'
+const HubVideoMob = '/src/assets/images/Hub-Mobile.mp4'
 </script>
 
 <template>
