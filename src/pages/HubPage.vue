@@ -2,8 +2,8 @@
 import VideoHome from '@/components/uniques/VideoHome.vue';
 import CardsHub from '@/components/uniques/CardsHub.vue';
 
-const HubVideo = 'src/assets/videos/Hub-Video.mp4'
-const HubVideoMob = 'src/assets/videos/Hub-Mobile.mp4'
+const HubVideo = '../assets/Hub-Video.mp4'
+const HubVideoMob = '../assets/Hub-Mobile.mp4'
 </script>
 
 <template>
@@ -23,7 +23,7 @@ h1{
     font-size: 5rem;
     font-weight: bolder;
 }
-
+ 
 @media (max-width: 768px){
     h1{
     font-size: 2rem;
