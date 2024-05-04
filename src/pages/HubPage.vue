@@ -1,15 +1,14 @@
 <script setup>
-import VideoHome from '@/components/uniques/VideoHome.vue';
+import VideoHub from '@/components/uniques/VideoHub.vue';
 import CardsHub from '@/components/uniques/CardsHub.vue';
-
-const HubVideo = '/src/assets/images/Hub-Video.mp4'
-const HubVideoMob = '/src/assets/images/Hub-Mobile.mp4'
+import Contact from '@/components/generals/Contact.vue'
 </script>
 
 <template>
-   <VideoHome :UrlDesktopVideo="HubVideo" :UrlMobVideo="HubVideoMob"/>
+   <VideoHub/>
    <h1>maximizamos el valor de las organizaciones</h1> 
    <CardsHub/>
+   <Contact/>
 </template>
 
 <style scoped lang="scss">
