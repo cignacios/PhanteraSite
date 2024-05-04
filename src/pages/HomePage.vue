@@ -6,13 +6,16 @@ import VideoHome from '../components/uniques/VideoHome.vue'
 import TypeText from '../components/uniques/TypeText.vue'
 import SwipeSection from '../components/uniques/SwipeSection.vue'
 import Contact from '../components/generals/Contact.vue'
+
+const HomeDesktop = 'src/assets/videos/home-desktop.mp4'
+const HomeMobile = 'src/assets/videos/Home-Mobile.mp4'
 </script> 
 
 <template>
     <Hero/> 
     <Cards/> 
     <LogosSlides/>
-    <VideoHome/>
+    <VideoHome :UrlDesktopVideo="HomeDesktop" :UrlMobVideo="HomeMobile"/>
     <TypeText/>
     <SwipeSection/>
     <Contact/>
