@@ -1,17 +1,25 @@
 <script setup>
 import VideoHub from '@/components/uniques/VideoHub.vue';
 import CardsHub from '@/components/uniques/CardsHub.vue';
+import SlidesHub from '@/components/uniques/SlidesHub.vue'
 import Contact from '@/components/generals/Contact.vue'
 </script>
 
 <template>
-   <VideoHub/>
+    <div class="contenedor">
+    <VideoHub/>
    <h1>maximizamos el valor de las organizaciones</h1> 
-   <CardsHub/>
+    </div>
+     <CardsHub/>
+     <SlidesHub/>
    <Contact/>
 </template>
 
 <style scoped lang="scss">
+.contenedor{
+    position: relative;
+}
+
 h1{
     text-transform: uppercase;
     position: absolute;

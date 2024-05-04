@@ -1,0 +1,145 @@
+<script>
+import { register} from 'swiper/element/bundle'
+register();
+</script> 
+
+<template>
+    <div class="titulos text-center">
+        <h3>Nuestro Equipo</h3>
+        <p class="sub-titulo text-center">Ellos vuelven realidad tu solución</p>
+    </div>
+       
+<div class="container">
+        <swiper-container
+            slides-per-view="4"
+            space-between="10"
+             pagination="true"
+            speed="500"
+            loop="true"
+        >
+        
+            <swiper-slide>
+                <div class="row align-items-center text-center">
+                  <img src="../../assets/images/perfil-1.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>Simon Garcia</h5>
+                  <p>C.E.O</p>                  
+                </div>
+            </swiper-slide>
+
+            <swiper-slide>
+                <div class="row align-items-center text-center">
+                  <img src="../../assets/images/perfil-2.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>María González</h5>
+                  <p>C.T.O</p>                  
+                </div> 
+            </swiper-slide>
+
+            <swiper-slide>    
+                <div class="row align-items-center">
+                  <img src="../../assets/images/perfil-3.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>Sofía Hernández</h5>
+                  <p>Senior Graphic Designer</p>                  
+                </div> 
+                                
+            </swiper-slide>
+
+            <swiper-slide>    
+                <div class="row align-items-center">
+                  <img src="../../assets/images/perfil-4.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>Carlos Rodríguez</h5>
+                  <p>Software Developer</p>                  
+                </div> 
+                                
+            </swiper-slide>
+
+            <swiper-slide>    
+                <div class="row align-items-center">
+                  <img src="../../assets/images/perfil-1.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>Kevin Hernández</h5>
+                  <p>Jr Software Developer</p>                  
+                </div> 
+                                
+            </swiper-slide>
+
+            <swiper-slide>    
+                <div class="row align-items-center">
+                  <img src="../../assets/images/perfil-2.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>Denisse González</h5>
+                  <p>Marketing Manager</p>                  
+                </div> 
+                                
+            </swiper-slide>
+
+            <swiper-slide>    
+                <div class="row align-items-center">
+                  <img src="../../assets/images/perfil-3.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>Ana López</h5>
+                  <p>Scrum Master</p>                  
+                </div> 
+                                
+            </swiper-slide> 
+
+            <swiper-slide>    
+                <div class="row align-items-center">
+                  <img src="../../assets/images/perfil-4.jpg" alt="..." style="" class="img-fluid"/>
+                  <h5>Alejandro García</h5>
+                  <p>Quality Assurance</p>                  
+                </div> 
+                                
+            </swiper-slide>
+
+            
+                
+            </swiper-container>
+        </div>
+</template>
+
+<style scoped lang="scss">
+.titulos {
+    margin-top: 6rem;
+    text-transform: uppercase;
+
+    h3 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .sub-titulo {
+        font-size: 1.25rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.container {
+    padding-bottom: 7rem;
+
+    img {
+        height: 15rem;
+        width: 15rem;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    h5 {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    @media (max-width: 768px) {
+        img {
+            height: 7rem;
+            width: 8rem;
+        }
+
+        h5 {
+            font-size: 1rem;
+        }
+    }
+}
+
+
+</style> 

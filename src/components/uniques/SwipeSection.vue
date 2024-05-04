@@ -1,42 +1,16 @@
 <script>
-import { Pagination, A11y } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/vue';
-
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log('slide change');
-    };
-    return {
-      onSwiper,
-      onSlideChange, 
-      modules:[Pagination, A11y]
-    }
-}
-}
+import { register} from 'swiper/element/bundle'
+register();
 </script> 
 
 <template>
 <div class="container-fluid ">
-        <swiper 
-        :modules="modules"
-        :slides-per-view="3"
-            :space-between="10"
-            :pagination="{ clickable: true }"
-            :scrollbar="{ draggable: true }"
-            @swiper="onSwiper"
-            @slideChange="onSlideChange"
+        <swiper-container
+            slides-per-view="3"
+            space-between="10"
+             pagination="true"
+            speed="500"
+            loop="true"
         >
             <swiper-slide>
                 <div class="row align-items-center">
@@ -168,7 +142,7 @@ export default {
             </swiper-slide>
         
 
-            </swiper>
+            </swiper-container>
         </div>
 </template>
 
