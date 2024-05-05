@@ -14,20 +14,34 @@
 
 <style scoped>
 .contenedor{
-    margin-top: 90px;
-    margin-bottom: 3rem;
+    padding-top: 90px;
+    padding-bottom: 3rem;
     position: relative;
+    text-align: center;
 }
 
 video{
     width: 100%;
 }
 
-h1{
+h1{ 
     text-transform: uppercase;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
+    margin: 0 auto;
+    font-size: 3.3rem;
+    font-weight: 900;
+    width: 53rem;
+    overflow-wrap: break-word;
+    padding: 3rem 0rem;
+}
+
+@media (max-width: 768px){
+
+    h1{ 
+    font-size: 2rem;
+    width: 18rem;
+    overflow-wrap: break-word;
+}
+
 }
 
 </style>
