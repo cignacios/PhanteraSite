@@ -11,11 +11,22 @@ register();
        
 <div class="container">
         <swiper-container
-            slides-per-view="4"
+            slides-per-view="3"
             space-between="10"
              pagination="true"
             speed="500"
             loop="true"
+            :breakpoints="{ 
+              '576': {
+                slidesPerView:3
+              },  
+              '768':{
+                slidesPerView:4
+              },
+              '992':{
+                slidesPerView:6
+              }
+            }"
         >
         
             <swiper-slide>
@@ -88,7 +99,7 @@ register();
                                 
             </swiper-slide>
 
-            
+             
                 
             </swiper-container>
         </div>
@@ -114,10 +125,9 @@ register();
     padding-bottom: 7rem;
 
     img {
-        height: 15rem;
-        width: 15rem;
-        object-fit: cover;
-        border-radius: 20px;
+        height: 100% !important;
+        width: 100% !important;
+        filter: grayscale(100%);
     }
 
     h5 {

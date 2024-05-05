@@ -9,6 +9,7 @@ import Contact from '@/components/generals/Contact.vue'
     <div class="contenedor">
     <VideoHub/>
    <h1>maximizamos el valor de las organizaciones</h1> 
+   <div class="overlay"></div>
     </div>
      <CardsHub/>
      <SlidesHub/>
@@ -23,13 +24,23 @@ import Contact from '@/components/generals/Contact.vue'
 h1{
     text-transform: uppercase;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 5rem;
     font-weight: bolder;
 }
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0,3,21,0.9164040616246498) 0%, rgba(0,3,21,0.00043767507002800965) 24%, rgba(0,3,21,0) 54%, rgba(0,3,21,0.9808298319327731) 100%);
+}
+
  
 @media (max-width: 768px){
     h1{

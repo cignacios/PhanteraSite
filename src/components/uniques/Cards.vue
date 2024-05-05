@@ -138,7 +138,7 @@ img{
 }
 
 .container-fluid{
-    padding: 0rem 0rem;
+    padding: 1rem 0rem;
 }
 
 }

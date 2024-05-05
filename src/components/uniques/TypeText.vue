@@ -13,7 +13,8 @@ import VueTypewriterEffect from "vue-typewriter-effect";
 
 .micontenedor{
     max-width: 52% !important;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    margin-top: 90px;
 }
 
 .titulo{
@@ -30,6 +31,7 @@ import VueTypewriterEffect from "vue-typewriter-effect";
 
 .micontenedor{
     max-width: 100% !important;
+    margin-bottom: 10px;
 }
 
 .titulo{
