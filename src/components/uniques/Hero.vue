@@ -13,8 +13,8 @@
 
 <style scoped>
 .fondotexto{
-    margin-top: 15rem;
-    margin-bottom: 10rem;
+   padding-top: 15rem;
+    padding-bottom: 10rem;
 }
 
 h1{
@@ -29,8 +29,8 @@ h1, h3{
 
 @media (max-width: 768px){
 .fondotexto{
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
 }
 h1{
     font-size: 2.5rem;

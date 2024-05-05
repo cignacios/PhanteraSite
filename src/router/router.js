@@ -4,6 +4,7 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
 import HubPage from '../pages/HubPage.vue'
 import ContactPage from '../pages/ContactPage.vue'
+import EcommercePage from '../pages/EcommercePage.vue'
 
 // import AboutView from './AboutView.vue'
 
@@ -11,9 +12,10 @@ import ContactPage from '../pages/ContactPage.vue'
 const router = createRouter({
   history: createMemoryHistory(),
   routes: [
-    { path: '/', component: HomePage },
-    { path: '/hub', component: HubPage },
-    { path: '/contact', component: ContactPage },
+    { path: '/', component: HomePage, meta:{shownavbar:true} },
+    { path: '/hub', component: HubPage, meta:{shownavbar:true}},
+    { path: '/ecommerce', component: EcommercePage, meta:{shownavbar:false} },
+    { path: '/contact', component: ContactPage, meta:{shownavbar:true} },
   ],
   scrollBehavior(to, from, savedPosition){
     if(savedPosition){
