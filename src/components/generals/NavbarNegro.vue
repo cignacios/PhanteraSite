@@ -30,7 +30,7 @@
               <li><router-link class="dropdown-item" to="/custom">desarrollo de software a la medida y automatización</router-link></li>
               <li><router-link class="dropdown-item" to="/outsourcing">subcontratación de software</router-link></li>
               <li><router-link class="dropdown-item" to="/marketing">estrategia de marketing orientada al crecimiento</router-link></li>
-              <li><router-link class="dropdown-item" to="#">diseño estratégico de marca</router-link></li>
+              <li><router-link class="dropdown-item" to="/branding">diseño estratégico de marca</router-link></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -67,6 +67,10 @@ background-color: transparent !important;
 
 .nav-link, .dropdown-item{
   color: #000000 !important;
+}
+
+.dropdown-item:hover{
+  color: #ffffff !important;
 }
 
 .nav-item{

@@ -1,14 +1,14 @@
 import { createMemoryHistory, createRouter } from 'vue-router'
 
-
 import HomePage from '../pages/HomePage.vue'
 import HubPage from '../pages/HubPage.vue'
 import ContactPage from '../pages/ContactPage.vue'
 import EcommercePage from '../pages/EcommercePage.vue'
 import CustomSoftwarePage from '../pages/CustomSoftwarePage.vue'
 import OutsourcingPage from '../pages/OutsourcingPage.vue'
-import MarketingPage from '@/pages/MarketingPage.vue'
-
+import MarketingPage from '../pages/MarketingPage.vue'
+import BrandingPage from '../pages/BrandingPage.vue'
+ 
 // import AboutView from './AboutView.vue'
 
 
@@ -21,6 +21,7 @@ const router = createRouter({
     { path: '/custom', component: CustomSoftwarePage, meta:{shownavbar:false} },
     { path: '/outsourcing', component: OutsourcingPage, meta:{shownavbar:false} },
     { path: '/marketing', component: MarketingPage, meta:{shownavbar:false} },
+    { path: '/branding', component: BrandingPage, meta:{shownavbar:false} },
     { path: '/contact', component: ContactPage, meta:{shownavbar:true} },
   ],
   scrollBehavior(to, from, savedPosition){
