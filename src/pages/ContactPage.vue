@@ -1,10 +1,15 @@
 <script setup>
+import Contact from '@/components/generals/Contact.vue';
 </script>
 
 <template>
-<h1>Aqui toy en Contact</h1>
+    <div class="contenedor">
+        <Contact/>
+    </div>
 </template>
 
 <style scoped>
-
+.contenedor{
+    padding-top: 10rem;
+}
 </style>

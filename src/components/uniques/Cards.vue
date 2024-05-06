@@ -97,6 +97,7 @@ overflow: auto;
     font-size: 1rem;
     left: 100%;
     transition: left 0.3s ease;
+    width: 100%;
 }
 
 .card-body:hover .card-text{
