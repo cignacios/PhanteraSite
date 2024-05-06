@@ -1,6 +1,6 @@
 <script setup>
 import VideoCustom from '@/components/uniques/VideoCustom.vue'
-import TextSlides from '@/components/generals/TextSlides.vue'
+import TextSlides from '@/components/uniques/TextSlides.vue'
 import Contact from '@/components/generals/Contact.vue'
 
 const backgroundcolor='contenedorblanco'

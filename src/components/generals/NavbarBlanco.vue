@@ -28,7 +28,7 @@
               <li><router-link class="dropdown-item" to="/ecommerce" :exact-active-class="active">Desarrollo de e-commerce y websites informativos</router-link></li>
               <li><router-link class="dropdown-item" to="/custom">desarrollo de software a la medida y automatización</router-link></li>
               <li><router-link class="dropdown-item" to="/outsourcing">subcontratación de software</router-link></li>
-              <li><router-link class="dropdown-item" to="#">estratefia de marketing orientada al crecimiento</router-link></li>
+              <li><router-link class="dropdown-item" to="/marketing">estratefia de marketing orientada al crecimiento</router-link></li>
               <li><router-link class="dropdown-item" to="#">diseño estratégico de marca</router-link></li>
             </ul>
           </li>
