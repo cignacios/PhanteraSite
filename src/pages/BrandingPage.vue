@@ -1,6 +1,6 @@
 <script setup>
 import ContenidoBranding from '@/components/uniques/ContenidoBranding.vue'
-import TextSlidesB3 from '@/components/uniques/TextSlidesB3.vue';
+import TextSlidesB3 from '@/components/uniques/TextSlidesB.vue';
 import Contact from '@/components/generals/Contact.vue'
 
 const backgroundcolor='contenedorblanco'

@@ -57,7 +57,7 @@ h1{
 
     h1{ 
     font-size: 2rem;
-    width: 20rem;
+    width: 22rem;
     overflow-wrap: break-word;
 }
 
