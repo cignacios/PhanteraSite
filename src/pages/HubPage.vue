@@ -3,6 +3,12 @@ import VideoHub from '@/components/uniques/VideoHub.vue';
 import CardsHub from '@/components/uniques/CardsHub.vue';
 import SlidesHub from '@/components/uniques/SlidesHub.vue'
 import Contact from '@/components/generals/Contact.vue'
+
+const backgroundcolor='contenedorazul'
+const placeholder="placeholderazul"
+const textocolor="colortextoazul"
+const labelcolor="labelcolorbazul"
+const checkboxcolor="checkcolorazul"
 </script>
 
 <template>
@@ -13,7 +19,7 @@ import Contact from '@/components/generals/Contact.vue'
     </div>
      <CardsHub/>
      <SlidesHub/>
-   <Contact/>
+     <Contact :backgroundcolor="backgroundcolor" :placeholdercolor="placeholder" :textocolor="textocolor" :labelcolor="labelcolor" :checkboxcolor="checkboxcolor"/>
 </template>
 
 <style scoped lang="scss">

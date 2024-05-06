@@ -7,16 +7,23 @@ import TypeText from '../components/uniques/TypeText.vue'
 import SwipeSection from '../components/uniques/SwipeSection.vue'
 import Contact from '../components/generals/Contact.vue'
 
+
+const backgroundcolor='contenedorazul'
+const placeholder="placeholderazul"
+const textocolor="colortextoazul"
+const labelcolor="labelcolorbazul"
+const checkboxcolor="checkcolorazul"
+
 </script> 
  
-<template>
+<template> 
     <Hero/> 
     <Cards/> 
     <LogosSlides/>
     <VideoHome UrlDesktopVideo="/src/assets/videos/home-desktop.mp4" UrlMobVideo="/src/assets/videos/Home-Mobile.mp4"/>
     <TypeText/>
     <SwipeSection/>
-    <Contact/>
+    <Contact :backgroundcolor="backgroundcolor" :placeholdercolor="placeholder" :textocolor="textocolor" :labelcolor="labelcolor" :checkboxcolor="checkboxcolor"/>
 </template>
 
 <style scoped>

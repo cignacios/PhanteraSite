@@ -1,5 +1,7 @@
 <script setup>
 
+const props=defineProps({placeholdercolor:String, backgroundcolor:String, textocolor:String, labelcolor:String, checkboxcolor:String});
+console.log(props);
 </script>
 
 <template>
@@ -9,54 +11,54 @@
                 <img class="img-fluid" src="../../assets/images/form-contact-es.png" alt="formulario"/>
             </div>
                 <div class="col-lg-6 derecha order-1 order-lg-2">
-                    <form class="contenedor-form">
+                    <form :class=" backgroundcolor " class="contenedor-form">
                             <div class="mb-3">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido"/> 
+                                <input type="email" class="form-control" :class="[placeholdercolor, textocolor]" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido"/> 
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nombre de empresa">
+                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" placeholder="Nombre de empresa">
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo electrónico">
+                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" placeholder="Correo electrónico">
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Teléfono">
+                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" placeholder="Teléfono">
                             </div>   
                             
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" for="exampleCheck1">Desarrollo de e-commerce y websites informativos</label>
+                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Desarrollo de e-commerce y websites informativos</label>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" for="exampleCheck1">Subcontratación de software</label>
+                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]" for="exampleCheck1">Subcontratación de software</label>
                                     </div>
                                    </div>
 
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" for="exampleCheck1">Desarrollo de software a la medida y automatización</label>
+                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Desarrollo de software a la medida y automatización</label>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" for="exampleCheck1">Diseño estratégico de marca</label>
+                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Diseño estratégico de marca</label>
                                     </div>
                                 </div>
 
                                 <div class="col-12">
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" for="exampleCheck1">Estrategias de marketing orientadas al crecimiento.</label>
+                                        <input type="checkbox" class="form-check-input"  :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Estrategias de marketing orientadas al crecimiento.</label>
                                     </div>
                                    </div>
                             </div>
-                            <hr>
+                            <hr :class="[checkboxcolor]">
                             <div class="mb-3">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1" placeholder="name@example.com">
-                                <label class="form-check-label" for="exampleCheck1">Al hacer clic aquí, confirmas tu autorización conforme a los términos de uso y política de privacidad.</label>
+                                <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
+                                <label class="form-check-label" :class="[labelcolor]" for="exampleCheck1">Al hacer clic aquí, confirmas tu autorización conforme a los términos de uso y política de privacidad.</label>
                             </div> 
                             <button type="submit" class="btn btn-danger">Trabajemos</button>
                             </form>
@@ -91,6 +93,10 @@ hr{
     opacity: 0.60;
 }
 
+.form-check-label{
+    color: #ffffff;
+}
+
 .form-control {
     background-color: transparent;
     color: white;
@@ -99,6 +105,14 @@ hr{
 ::placeholder {
         color: rgba(255, 255, 255, 0.5); 
     }
+ 
+.placeholderazul::placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+}    
+
+.placeholderblanco::placeholder {
+    color: rgba(0, 0, 0, 0.5); 
+} 
 
 .form-control:focus {
         border-color: #f41052;
@@ -119,6 +133,40 @@ label {
     background-color: #000315;
     color: #f41052;
 } 
+
+.contenedorazul{
+    background-color: #1e202d;
+}
+
+.contenedorblanco{
+    background-color: #f4f7f8;
+}
+
+.colortextoazul{
+    color: #ffffff;
+    border: 1px solid #dee2e6;
+}
+
+.colortextoblanco{
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.labelcolorazul{
+    color: #ffffff;
+}
+
+.labelcolorblanco{
+    color: #000000;
+}
+
+.checkcolorazul{
+    border: 1px solid #dee2e6;
+}
+
+.checkcolorblanco{
+    border: 1px solid #000000;
+}
 
 @media (max-width:768px){
 .izquierda img{ 

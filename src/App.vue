@@ -7,7 +7,7 @@ import { RouterView, useRoute } from "vue-router"
 const ruta = useRoute();
 /* const listaruta = ['/ecommerce']
 const mostrarnavbar = !listaruta.includes(ruta.path); */
-console.log('ruta', ruta.path);
+
 /*console.log('mostrarnavbar', mostrarnavbar);*/
 </script>
 
