@@ -189,6 +189,9 @@
     text-align: left;
 }
 
+.img-contenedor{
+    text-align: center;
+}
 
 .swiper-pagination-bullet{
     margin-top: 15rem !important;

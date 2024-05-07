@@ -22,7 +22,7 @@ import VueTypewriterEffect from "vue-typewriter-effect";
 }
 
 .descripcion{
-    margin-top: 2rem;
+    margin-top: 2rem; 
     font-size: 1.25rem;
     text-transform: uppercase;
 }

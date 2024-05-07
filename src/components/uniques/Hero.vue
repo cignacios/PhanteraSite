@@ -4,10 +4,10 @@ import {t} from '../../locale/language'
 
 <template>
     <header class="fondotexto">
-        <h1>Escala el <br class="d-block d-sm-none"> potencial <br class="d-none d-lg-block">de tu <br class="d-block d-sm-none"> empresa</h1>
-        <h3>conoce el poder de phantera</h3>
+        <h1>{{t.hero1}} <br class="d-block d-sm-none"> {{t.hero2}}<br class="d-none d-lg-block">{{t.hero3}}<br class="d-block d-sm-none">{{t.hero4}}</h1>
+        <h3>{{t.hero5}}</h3>
     </header>
- 
+  
    
 </template>
 

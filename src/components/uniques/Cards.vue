@@ -1,5 +1,5 @@
 <script setup>
-
+import {t} from '../../locale/language'
 </script>
 
 <template>
@@ -9,9 +9,9 @@
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-1.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Desarrollo de e-commerce y websites informativos</h5>
-            <p class="card-text">Construye tu negocio y comienza a facturar con una integración 360.</p>
-            <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
+            <h5 class="card-title">{{t.cardhome1}}</h5>
+            <p class="card-text">{{t.texthome1}}</p>
+            <button type="button" class="btn btn-outline-light btn-vermas">{{t.btncardhome}}</button>
             </div>
         </div>
    
@@ -19,27 +19,27 @@
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-2.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Desarrollo de software a la medida</h5>
-            <p class="card-text">Materializa tu idea de negocio o elimina ineficiencias operativas con una solución tecnológica a la medida.</p>
-            <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
+            <h5 class="card-title">{{t.cardhome2}}</h5>
+            <p class="card-text">{{t.texthome2}}</p>
+            <button type="button" class="btn btn-outline-light btn-vermas">{{t.btncardhome}}</button>
             </div>
         </div>
     
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-3.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Subcontratación de Software</h5>
-            <p class="card-text">Reduce costo por equipos internos y agiliza actualizaciones en tu sistema.</p>
-            <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
+            <h5 class="card-title">{{t.cardhome3}}</h5>
+            <p class="card-text">{{t.texthome3}}</p>
+            <button type="button" class="btn btn-outline-light btn-vermas">{{t.btncardhome}}</button>
             </div>
         </div>
     
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-4.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Estrategia de marketing orientada al crecimiento</h5>
-            <p class="card-text">Escala tu negocio y cumple tus objetivos con una estrategia basada en datos.</p>
-            <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
+            <h5 class="card-title">{{t.cardhome4}}</h5>
+            <p class="card-text">{{t.texthome4}}</p>
+            <button type="button" class="btn btn-outline-light btn-vermas">{{t.btncardhome}}</button>
             </div>
         </div>
    
@@ -47,9 +47,9 @@
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-5.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Diseño estratégico de marca</h5>
-            <p class="card-text">Conceptualiza tu idea y posiciona tu propuesta de valor</p>
-            <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
+            <h5 class="card-title">{{t.cardhome5}}</h5>
+            <p class="card-text">{{t.texthome5}}</p>
+            <button type="button" class="btn btn-outline-light btn-vermas">{{t.btncardhome}}</button>
             </div>
         </div>
   </div>

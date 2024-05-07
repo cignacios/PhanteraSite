@@ -1,6 +1,28 @@
 {
     "homelink":"Inicio",
     "services":"Servicios",
-    "custom":"Desarrollo de e-commerce y websites informativos",
-    "contact":"Contacto"
+    "ecommerce":"Desarrollo de e-commerce y websites informativos",
+    "custom":"desarrollo de software a la medida y automatización", 
+    "outsourcing":"subcontratación de software",
+    "marketing":"Estrategia de marketing orientada al crecimiento",
+    "branding":"diseño estratégico de marca",
+    "contact":"Contacto",
+
+    "hero1":"Escala el",
+    "hero2":"potencial",
+    "hero3":"de tu",
+    "hero4":"empresa",
+    "hero5":"conoce el poder de panthera",
+
+    "btncardhome":"Ver más",
+    "cardhome1":"Desarrollo de e-commerce y websites informativos",
+    "texthome1":"Construye tu negocio y comienza a facturar con una integración 360.",
+    "cardhome2":"Desarrollo de software a la medida",
+    "texthome2":"Materializa tu idea de negocio o elimina ineficiencias operativas con una solución tecnológica a la medida.",
+    "cardhome3":"Subcontratación de Software",
+    "texthome3":"Reduce costo por equipos internos y agiliza actualizaciones en tu sistema.",
+    "cardhome4":"Estrategia de marketing orientada al crecimiento",
+    "texthome4":"Escala tu negocio y cumple tus objetivos con una estrategia basada en datos.",
+    "cardhome5":"Diseño estratégico de marca",
+    "texthome5":"Conceptualiza tu idea y posiciona tu propuesta de valor"
 }

@@ -7,11 +7,17 @@ import {availablelanguages, currentlanguagecode, setlanguage, t} from '../../loc
       <router-link class="navbar-brand" to="/">
         <img src="/src/assets/images/logo-white.svg" alt="Logo"/>
       </router-link> 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-list" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/> 
-        </svg>
-      </button> 
+      <div class="contenedoridiomas">
+        <select class="btnidioma" @change="setlanguage($event.target.value)" v-model="currentlanguagecode">
+             <option :value="lang.code" v-for="lang in availablelanguages" :key="lang.code">{{ lang.name }}</option>
+          </select>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/> 
+            </svg>
+          </button> 
+      </div>
+     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item"> 
@@ -25,11 +31,11 @@ import {availablelanguages, currentlanguagecode, setlanguage, t} from '../../loc
               {{t.services}}
             </router-link>
             <ul class="dropdown-menu">
-              <li><router-link class="dropdown-item" to="/ecommerce" :exact-active-class="active">{{t.custom}}</router-link></li>
-              <li><router-link class="dropdown-item" to="/custom">desarrollo de software a la medida y automatización</router-link></li>
-              <li><router-link class="dropdown-item" to="/outsourcing">subcontratación de software</router-link></li>
-              <li><router-link class="dropdown-item" to="/marketing">estrategia de marketing orientada al crecimiento</router-link></li>
-              <li><router-link class="dropdown-item" to="/branding">diseño estratégico de marca</router-link></li>
+              <li><router-link class="dropdown-item" to="/ecommerce" :exact-active-class="active">{{t.ecommerce}}</router-link></li>
+              <li><router-link class="dropdown-item" to="/custom">{{t.custom}}</router-link></li>
+              <li><router-link class="dropdown-item" to="/outsourcing">{{t.outsourcing}}</router-link></li>
+              <li><router-link class="dropdown-item" to="/marketing">{{t.marketing}}</router-link></li>
+              <li><router-link class="dropdown-item" to="/branding">{{t.branding}}</router-link></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -110,5 +116,11 @@ background-color: #f41052;
 .nav-link{
     font-size: 20px;
 }
+}
+
+@media (min-width: 768px){
+  .btnidioma{
+    display: none;
+  }
 }
 </style>

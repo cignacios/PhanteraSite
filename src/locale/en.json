@@ -1,6 +1,28 @@
 {
     "homelink":"Home",
     "services":"Services",
-    "custom":"Development of e-commerce and informative websites",
-    "contact":"Contact"
+    "ecommerce":"Development of e-commerce and informative websites",
+    "custom":"custom software development and automation", 
+    "outsourcing":"software outsourcing",
+    "marketing":"Growth-oriented marketing strategy",
+    "branding":"strategic brand design",
+    "contact":"Contact",
+
+    "hero1":"scale the",
+    "hero2":"potential",
+    "hero3":"from your",
+    "hero4":"company",
+    "hero5":"know the power of phantera",
+
+    "btncardhome":"See more",
+    "cardhome1":"Development of e-commerce and informative websites",
+    "texthome1":"Build your business and start billing with a 360 integration.",
+    "cardhome2":"Development of custom software",
+    "texthome2":"Materialize your business idea or eliminate operational inefficiencies with a customized technological solution.",
+    "cardhome3":"Software Outsourcing",
+    "texthome3":"Reduce cost for internal equipment and speed up updates to your system.",
+    "cardhome4":"Growth-oriented marketing strategy",
+    "texthome4":"Scale your business and meet your goals with a data-driven strategy.",
+    "cardhome5":"Strategic brand design",
+    "texthome5":"Conceptualize your idea and position your value proposition" 
 }
