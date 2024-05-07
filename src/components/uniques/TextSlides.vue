@@ -8,7 +8,9 @@
         <swiper-container
             slides-per-view="1"
             space-between="10"
-            pagination="true" 
+            :pagination="{
+                clickable:true,
+            }"
             speed="500"
             loop="true"
             >

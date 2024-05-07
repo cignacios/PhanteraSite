@@ -1,5 +1,5 @@
 <script setup>
-
+import {t} from '../../locale/language'
 </script>
 
 <template>

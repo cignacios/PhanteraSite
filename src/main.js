@@ -11,7 +11,9 @@ import { createApp } from 'vue'
 import { register} from 'swiper/element/bundle'
 register();
 
+import { Grid } from 'swiper/modules';
+
 const app = createApp(App);
-app.use(router);
+app.use(router);-
 
 app.mount('#app');

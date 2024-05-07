@@ -11,8 +11,10 @@
 <div class="container">
         <swiper-container
             slides-per-view="3"
-            space-between="10"
-             pagination="true"
+            space-between="20"
+            :pagination="{
+                clickable:true,
+            }"
             speed="500"
             loop="true"
             :breakpoints="{ 
@@ -29,24 +31,24 @@
         >
         
             <swiper-slide>
-                <div class="row align-items-center text-center">
-                  <img src="../../assets/images/perfil-1.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-1.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>Simon Garcia</h5>
                   <p>C.E.O</p>                  
                 </div>
             </swiper-slide>
 
             <swiper-slide>
-                <div class="row align-items-center text-center">
-                  <img src="../../assets/images/perfil-2.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-2.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>María González</h5>
                   <p>C.T.O</p>                  
                 </div> 
             </swiper-slide>
 
             <swiper-slide>    
-                <div class="row align-items-center">
-                  <img src="../../assets/images/perfil-3.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-3.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>Sofía Hernández</h5>
                   <p>Senior Graphic Designer</p>                  
                 </div> 
@@ -54,8 +56,8 @@
             </swiper-slide>
 
             <swiper-slide>    
-                <div class="row align-items-center">
-                  <img src="../../assets/images/perfil-4.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-4.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>Carlos Rodríguez</h5>
                   <p>Software Developer</p>                  
                 </div> 
@@ -63,8 +65,8 @@
             </swiper-slide>
 
             <swiper-slide>    
-                <div class="row align-items-center">
-                  <img src="../../assets/images/perfil-1.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-1.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>Kevin Hernández</h5>
                   <p>Jr Software Developer</p>                  
                 </div> 
@@ -72,8 +74,8 @@
             </swiper-slide>
 
             <swiper-slide>    
-                <div class="row align-items-center">
-                  <img src="../../assets/images/perfil-2.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-2.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>Denisse González</h5>
                   <p>Marketing Manager</p>                  
                 </div> 
@@ -81,8 +83,8 @@
             </swiper-slide>
 
             <swiper-slide>    
-                <div class="row align-items-center">
-                  <img src="../../assets/images/perfil-3.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-3.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>Ana López</h5>
                   <p>Scrum Master</p>                  
                 </div> 
@@ -90,8 +92,8 @@
             </swiper-slide> 
 
             <swiper-slide>    
-                <div class="row align-items-center">
-                  <img src="../../assets/images/perfil-4.jpg" alt="..." style="" class="img-fluid"/>
+                <div class="align-items-center">
+                  <img src="../../assets/images/perfil-4.jpg" alt="..." style="" class="img-fluid rounded-2"/>
                   <h5>Alejandro García</h5>
                   <p>Quality Assurance</p>                  
                 </div> 

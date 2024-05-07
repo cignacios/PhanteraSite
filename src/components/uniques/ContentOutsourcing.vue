@@ -159,7 +159,7 @@ p{
 width: 23rem;
 overflow-wrap: break-word;
 margin: 0 auto;
-}
+} 
 
 .card-text{
         top: 41%;

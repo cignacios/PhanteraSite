@@ -20,7 +20,9 @@
             <div class="contenedorslides">
         <swiper-container
             slides-per-view="1"
-            pagination="false"
+            :pagination="{
+                clickable:true,
+            }"
             space-between="10"
             speed="500"
             loop="true" 

@@ -3,11 +3,13 @@
 </script> 
 
 <template>
-<div class="container-fluid ">
+<div class="slidecontenedor-fluid ">
         <swiper-container
             slides-per-view="1"
             space-between="10"
-             pagination="true"
+            :pagination="{
+                clickable:true,
+            }"
             speed="500"
             loop="true"
             :breakpoints="{ 
@@ -18,43 +20,48 @@
                 slidesPerView:3
               },
               '992':{
-                slidesPerView:5
+                slidesPerView:5 
               }
             }"
         >
-            <swiper-slide>
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+            
+            <swiper-slide >
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/efipay-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2 text-capitalize">Efipay</h3>
                         <p class="mb-3">Es una solución innovadora diseñada para simplificar agilizar los pagos en cualquier tipo de transa...</p>
-                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
-                </div> 
+                    </div> 
+                </div>
                 
+                 
             </swiper-slide>
 
             <swiper-slide>
-
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/uala-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Ualá</h3>
                         <p class="mb-3">Adaptaciones gráficas y audiovisuales para el público colombiano, se tomo la esencia de cada product...</p>
-                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
+                </div>
 
-                
             </swiper-slide>
 
             <swiper-slide>    
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/levely-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
@@ -63,13 +70,16 @@
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
+                </div>
+               
 
                 
             </swiper-slide>
 
             <swiper-slide>
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/klipclub-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
@@ -78,13 +88,15 @@
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div> 
+                </div>
 
             </swiper-slide>
 
             
             <swiper-slide>
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/accedo-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
@@ -93,62 +105,74 @@
                         <button type="button" class="btn btn-outline-light">ver más</button>
                     </div>
                 </div> 
+                </div>
+                
             </swiper-slide>
 
             <swiper-slide>
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/alltruismo-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Alltruismo</h3>
                         <p class="mb-3">Plataforma de crowdfunding para organizaciones sin fines de lucro.</p>
-                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
+                </div>
+                
      
             </swiper-slide>
 
             <swiper-slide>
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/yoteayudo-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Yateayudo</h3>
                         <p class="mb-3">es un líder ágil y escalable en nearshore para las necesidades de soporte al cliente en inglés, espa...</p>
-                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
+                </div>
+                
             </swiper-slide>
 
            
             <swiper-slide>
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
+                <div class="slidecontenedor">
+                    <div class="row align-items-center">
+                    <div class="col-md-6 img-contenedor">
                         <img src="../../assets/images/inglesdeuna-view-work.png" alt="..." style="" class="img-fluid"/>
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Ingles De Una</h3>
                         <p class="mb-3">Una aplicación web interactiva para el aprendizaje del inglés, con Moodle y SCORM 1.2, para escuelas...</p>
-                        <button type="button" class="btn btn-outline-light">Light</button>
+                        <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div> 
-                           
-                
+                </div>
+
             </swiper-slide>
             
             <swiper-slide>
-                <div class="row align-items-center">
-                    <div class="col-md-6 textos">
-                        <img src="../../assets/images/tutrok-view-work.png" alt="..." style="" class="img-fluid"/>
-                    </div>
-                    <div class="col-md-6 textos">
-                        <h3 class="mb-2  text-capitalize">Tutrok</h3>
-                        <p class="mb-3">Plataforma digital y aplicación móvil para el transporte de carga pesada.</p>
-                        <button type="button" class="btn btn-outline-light">Light</button>
+                    <div class="slidecontenedor">
+                        <div class="row align-items-center">
+                        <div class="col-md-6 img-contenedor">
+                            <img src="../../assets/images/tutrok-view-work.png" alt="..." style="" class="img-fluid"/>
+                        </div>
+                        <div class="col-md-6 textos">
+                            <h3 class="mb-2  text-capitalize">Tutrok</h3>
+                            <p class="mb-3">Plataforma digital y aplicación móvil para el transporte de carga pesada.</p>
+                            <button type="button" class="btn btn-outline-light">Ver más</button>
+                        </div>
                     </div>
                 </div>
+                
             </swiper-slide> 
         
 
@@ -157,7 +181,7 @@
 </template>
 
 <style scoped>
-.container-fluid{
+.slidecontenedor-fluid{
     padding: 8rem 0rem;
 }
 
@@ -165,9 +189,19 @@
     text-align: left;
 }
 
+
 .swiper-pagination-bullet{
     margin-top: 15rem !important;
     background-color: green !important;
+}
+
+.btn-outline-light{
+    border: 2px solid #788ee8;
+    color:#788ee8;
+}
+
+.btn-outline-light:hover{
+    background-color: hsla(0, 0%, 100%, 0.87);
 }
 
 

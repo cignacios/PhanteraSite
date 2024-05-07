@@ -1,5 +1,5 @@
 <script setup>
-
+import {availablelanguages, currentlanguagecode, setlanguage, t} from '../../locale/language'
 </script>
 
 <template><nav class="navbar navbar-expand-lg menu fixed-top">
@@ -14,18 +14,18 @@
       </button> 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <router-link class="nav-link" activeClass="active" aria-current="page" to="/" :exact-active-class="active">Inicio</router-link>
+          <li class="nav-item"> 
+            <router-link class="nav-link" activeClass="active" aria-current="page" to="/" :exact-active-class="active">{{t.homelink}}</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/hub" exact-active-class="active">Hub</router-link>
           </li>
           <li class="nav-item dropdown">
             <router-link class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servicios
+              {{t.services}}
             </router-link>
             <ul class="dropdown-menu">
-              <li><router-link class="dropdown-item" to="/ecommerce" :exact-active-class="active">Desarrollo de e-commerce y websites informativos</router-link></li>
+              <li><router-link class="dropdown-item" to="/ecommerce" :exact-active-class="active">{{t.custom}}</router-link></li>
               <li><router-link class="dropdown-item" to="/custom">desarrollo de software a la medida y automatización</router-link></li>
               <li><router-link class="dropdown-item" to="/outsourcing">subcontratación de software</router-link></li>
               <li><router-link class="dropdown-item" to="/marketing">estrategia de marketing orientada al crecimiento</router-link></li>
@@ -33,10 +33,12 @@
             </ul>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" to="/contact" exact-active-class="active">Contacto</router-link>
+            <router-link class="nav-link" aria-current="page" to="/contact" exact-active-class="active">{{t.contact}}</router-link>
           </li>
           <li class="nav-item d-none d-lg-block">
-            <router-link class="nav-link boton" aria-current="page" to="#">En</router-link>
+            <select class="nav-link boton" @change="setlanguage($event.target.value)" v-model="currentlanguagecode">
+             <option :value="lang.code" v-for="lang in availablelanguages" :key="lang.code">{{ lang.name }}</option>
+             </select>
           </li>
         </ul>
        
@@ -84,7 +86,7 @@ background-color: transparent !important;
   border-bottom: 2px solid #f41052;
 }
 
-.boton{
+select{
   border: 1px solid white;
     border-radius: 50%;
     padding: 8px 12px !important;
@@ -100,7 +102,7 @@ background-color: transparent !important;
 }
 
 .dropdown-item:hover{
-background-color: #f87299;
+background-color: #f41052;
 }
 
 
