@@ -1,7 +1,7 @@
 <script setup>
 import {t} from '../../locale/language'
 const props=defineProps({placeholdercolor:String, backgroundcolor:String, textocolor:String, labelcolor:String, checkboxcolor:String});
-console.log(props);
+
 </script>
 
 <template>
@@ -13,54 +13,54 @@ console.log(props);
                 <div class="col-lg-6 derecha order-1 order-lg-2">
                     <form :class=" backgroundcolor " class="contenedor-form">
                             <div class="mb-3">
-                                <input type="email" class="form-control" :class="[placeholdercolor, textocolor]" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{t.placeholder1}}"/> 
+                                <input type="email" class="form-control" :class="[placeholdercolor, textocolor]" id="exampleInputEmail1" aria-describedby="emailHelp" :placeholder="t.placeholder1"/> 
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" placeholder="Nombre de empresa">
+                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" :placeholder="t.placeholder2">
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" placeholder="Correo electrónico">
+                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" :placeholder="t.placeholder3">
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" placeholder="Teléfono">
+                                <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" :placeholder="t.placeholder4">
                             </div>   
                             
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6"> 
                                     <div class="mb-3">
                                         <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Desarrollo de e-commerce y websites informativos</label>
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">{{t.formtext1}}</label>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" :class="[labelcolor]" for="exampleCheck1">Subcontratación de software</label>
+                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck2" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]" for="exampleCheck2">{{t.formtext2}}</label>
                                     </div>
                                    </div>
 
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Desarrollo de software a la medida y automatización</label>
+                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck3" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck3">{{t.formtext3}}</label>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Diseño estratégico de marca</label>
+                                        <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck4" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck4">{{t.formtext4}}</label>
                                     </div>
                                 </div>
 
-                                <div class="col-12">
+                                <div class="col-12"> 
                                     <div class="mb-3">
-                                        <input type="checkbox" class="form-check-input"  :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
-                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck1">Estrategias de marketing orientadas al crecimiento.</label>
+                                        <input type="checkbox" class="form-check-input"  :class="[checkboxcolor]" id="exampleCheck5" placeholder="name@example.com">
+                                        <label class="form-check-label" :class="[labelcolor]"  for="exampleCheck5">{{t.placeholder5}}</label>
                                     </div>
                                    </div>
                             </div>
                             <hr :class="[checkboxcolor]">
                             <div class="mb-3">
-                                <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck1" placeholder="name@example.com">
-                                <label class="form-check-label" :class="[labelcolor]" for="exampleCheck1">Al hacer clic aquí, confirmas tu autorización conforme a los términos de uso y política de privacidad.</label>
+                                <input type="checkbox" class="form-check-input" :class="[checkboxcolor]" id="exampleCheck6" placeholder="name@example.com">
+                                <label class="form-check-label" :class="[labelcolor]" for="exampleCheck6">{{t.placeholder6}}</label>
                             </div> 
-                            <button type="submit" class="btn btn-danger">Trabajemos</button>
+                            <button type="submit" class="btn btn-danger">{{t.btnform}}</button>
                             </form>
                         
                         

@@ -3,18 +3,19 @@ import VideoHub from '@/components/uniques/VideoHub.vue';
 import CardsHub from '@/components/uniques/CardsHub.vue';
 import SlidesHub from '@/components/uniques/SlidesHub.vue'
 import Contact from '@/components/generals/Contact.vue'
+import {t} from '../locale/language'
 
 const backgroundcolor='contenedorazul'
 const placeholder="placeholderazul"
 const textocolor="colortextoazul"
 const labelcolor="labelcolorbazul"
-const checkboxcolor="checkcolorazul"
+const checkboxcolor="checkcolorazul" 
 </script>
 
 <template>
     <div class="contenedor">
     <VideoHub/>
-   <h1>maximizamos el valor de las organizaciones</h1> 
+   <h1>{{t.titulohub}}</h1> 
    <div class="overlay"></div>
     </div>
      <CardsHub/>

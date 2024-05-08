@@ -1,6 +1,6 @@
-<script>
+<script setup>
 import {t} from '../../locale/language'
-console.log(t.texto1.value) 
+
 </script> 
 
 <template>
@@ -35,7 +35,7 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2 text-capitalize">Efipay</h3>
                         <p class="mb-3">{{t.texto1}}</p>
-                        <button type="button" class="btn btn-outline-light">{{t.btnswipes}}</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                     </div> 
                 </div>
@@ -52,7 +52,7 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Ualá</h3>
                         <p class="mb-3">{{t.texto2}}</p>
-                        <button type="button" class="btn btn-outline-light">Ver más</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                 </div>
                 </div>
@@ -68,11 +68,11 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Levely</h3>
                         <p class="mb-3">{{t.texto3}}</p>
-                        <button type="button" class="btn btn-outline-light">Ver más</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                 </div>
                 </div>
-               
+                
 
                 
             </swiper-slide>
@@ -86,7 +86,7 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Klipclub</h3>
                         <p class="mb-3">{{t.texto4}}</p>
-                        <button type="button" class="btn btn-outline-light">Ver más</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                 </div> 
                 </div>
@@ -103,7 +103,7 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Accedo</h3>
                         <p class="mb-3">{{t.texto5}}</p>
-                        <button type="button" class="btn btn-outline-light">ver más</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                 </div> 
                 </div>
@@ -119,7 +119,7 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Alltruismo</h3>
                         <p class="mb-3">{{t.texto6}}</p>
-                        <button type="button" class="btn btn-outline-light">Ver más</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                 </div>
                 </div>
@@ -136,7 +136,7 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Yateayudo</h3>
                         <p class="mb-3">{{t.texto7}}</p>
-                        <button type="button" class="btn btn-outline-light">Ver más</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                 </div>
                 </div>
@@ -153,14 +153,14 @@ console.log(t.texto1.value)
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Ingles De Una</h3>
                         <p class="mb-3">{{t.texto8}}</p>
-                        <button type="button" class="btn btn-outline-light">Ver más</button>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                     </div>
                 </div> 
                 </div>
 
             </swiper-slide>
             
-            <swiper-slide>
+            <swiper-slide> 
                     <div class="slidecontenedor">
                         <div class="row align-items-center">
                         <div class="col-md-6 img-contenedor">
@@ -169,7 +169,7 @@ console.log(t.texto1.value)
                         <div class="col-md-6 textos">
                             <h3 class="mb-2  text-capitalize">Tutrok</h3>
                             <p class="mb-3">{{t.texto9}}</p>
-                            <button type="button" class="btn btn-outline-light">Ver más</button>
+                            <button type="button" class="btn btn-outline-light">{{t.btnswipe}}</button>
                         </div>
                     </div>
                 </div>

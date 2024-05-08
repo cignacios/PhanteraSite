@@ -5,15 +5,13 @@
     "custom":"desarrollo de software a la medida y automatización", 
     "outsourcing":"subcontratación de software",
     "marketing":"Estrategia de marketing orientada al crecimiento",
-    "branding":"diseño estratégico de marca",
+    "branding":"diseño estratégico de marca", 
     "contact":"Contacto",
-
     "hero1":"Escala el",
     "hero2":"potencial",
-    "hero3":"de tu",
+    "hero3":"de tu ",
     "hero4":"empresa",
     "hero5":"conoce el poder de panthera",
-
     "btncardhome":"Ver más",
     "cardhome1":"Desarrollo de e-commerce y websites informativos",
     "texthome1":"Construye tu negocio y comienza a facturar con una integración 360.",
@@ -25,11 +23,9 @@
     "texthome4":"Escala tu negocio y cumple tus objetivos con una estrategia basada en datos.",
     "cardhome5":"Diseño estratégico de marca",
     "texthome5":"Conceptualiza tu idea y posiciona tu propuesta de valor",
-
     "typetext":"Conectamos contigo y tus clientes",
     "descripcion1":"No serás solo otro número; analizaremos tu negocio para ofrecerte una",
     "descripcion2":"solución hacia el éxito.",
-
     "btnswipe":"Ver más",
     "texto1":"Es una solución innovadora diseñada para simplificar agilizar los pagos en cualquier tipo de transa...",
     "texto2":"Adaptaciones gráficas y audiovisuales para el público colombiano, se tomo la esencia de cada product...",
@@ -40,6 +36,24 @@
     "texto7":"Plataforma de gestión de favores, donde puedes ayudar a los tuyos en Colombia pagando por sus medici...",
     "texto8":"Una aplicación web interactiva para el aprendizaje del inglés, con Moodle y SCORM 1.2, para escuelas...",
     "texto9":"Plataforma digital y aplicación móvil para el transporte de carga pesada.",
-
-    "placeholder1":"Nombre y apellido"
+    "placeholder1":"Nombre y apellido",
+    "placeholder2":"Nombre de empresa",
+    "placeholder3":"Correo electrónico",
+    "placeholder4":"Teléfono",
+    "formtext1":"Desarrollo de e-commerce y websites informativos",
+    "formtext2":"Subcontratación de software",
+    "formtext3":"Desarrollo de software a la medida y automatización",
+    "formtext4":"Diseño estratégico de marca",
+    "placeholder5":"Estrategias de marketing orientadas al crecimiento.",
+    "placeholder6":"Al hacer clic aquí, confirmas tu autorización conforme a los términos de uso y política de privacidad.",
+    "btnform":"Trabajemos",
+    "textfooter1":"Escala el potencial de tu empresa",
+    "textfooter2":"Tratamiento de Datos Personales en los términos de la Política de Privacidad y Protección de Datos Personales. Aviso de privacidad y política de cookies.",
+    "titulohub":"Maximizamos el valor de las organizaciones",
+    "texthub1":"Soluciones digitales integrales para maximizar tu valor",
+    "texthub2":"Nuestra misión",
+    "texthub3":"Es desarrollar e implementar soluciones digitales, integrales, que mejoren la sostenibilidad de los proyectos y maximicen el valor de nuestros clientes.",
+    "texthub4":"Impulsamos tu transformación digital, modernizamos tu operación, escalamos tus procesos y consolidamos tu presencia en línea. ¡Dale a tu negocio la ventaja competitiva que necesita!",
+    "cardshub1":"Nuestro Equipo",
+    "cardshub2":"Ellos vuelven realidad tu solución"
 }

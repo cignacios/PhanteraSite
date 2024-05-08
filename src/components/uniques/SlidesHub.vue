@@ -1,11 +1,12 @@
-<script>
+<script setup>
+import {t} from '../../locale/language'
 
 </script> 
-
+ 
 <template>
     <div class="titulos text-center">
-        <h3>Nuestro Equipo</h3>
-        <p class="sub-titulo text-center">Ellos vuelven realidad tu solución</p>
+        <h3>{{t.cardshub1}}</h3>
+        <p class="sub-titulo text-center">{{t.cardshub2}}</p>
     </div>
        
 <div class="container">

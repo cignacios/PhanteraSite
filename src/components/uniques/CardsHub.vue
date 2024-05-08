@@ -1,6 +1,5 @@
 <script setup>
-
-
+import {t} from '../../locale/language' 
 
 </script>
 
@@ -8,16 +7,16 @@
     <div class="container contenedor">        
         <div class="row">
             <div class="col-md-6">
-                <h3 class="py-3">soluciones digitales integrales para maximizar tu valor</h3>
+                <h3 class="py-3">{{t.texthub1}}</h3> 
                 <div class="card">
-                        <h2>nuestra misión</h2>
-                        <p>Es desarrollar e implementar soluciones digitales, integrales, que mejoren la sostenibilidad de los proyectos y maximicen el valor de nuestros clientes.</p>
+                        <h2>{{t.texthub2}}</h2>
+                        <p>{{t.texthub3}}</p>
                     </div>
             </div>
 
             <div class="col-md-6">
                 <div class="card">
-                        <p>Impulsamos tu transformación digital, modernizamos tu operacion, escalamos tus procesos y consolidamos tu presencia en línea. ¡Dale a tu negocio la ventaja competitiva que necesita!</p>
+                        <p>{{t.texthub4}}</p>
                 </div>
                 <img class="img-fluid" src="../../assets/images/card-hub.jpg" alt="">
             </div>

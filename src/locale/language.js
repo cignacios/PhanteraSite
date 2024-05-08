@@ -31,4 +31,8 @@ if(localStorage.getItem('language')){
     setlanguage(localStorage.getItem('language'))
 }
 
-export {availablelanguages, currentlanguagecode, setlanguage, t}
+function switchlanguage(){
+    currentlanguagecode.value=currentlanguagecode.value==='EN'?'ES':'EN';
+}
+
+export {availablelanguages, currentlanguagecode, setlanguage, t, switchlanguage}

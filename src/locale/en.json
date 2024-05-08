@@ -6,14 +6,12 @@
     "outsourcing":"software outsourcing",
     "marketing":"Growth-oriented marketing strategy",
     "branding":"strategic brand design",
-    "contact":"Contact",
-
+    "contact":"Contact", 
     "hero1":"scale the",
     "hero2":"potential",
-    "hero3":"from your",
+    "hero3":"from your ",
     "hero4":"company",
     "hero5":"know the power of phantera",
-
     "btncardhome":"See more",
     "cardhome1":"Development of e-commerce and informative websites",
     "texthome1":"Build your business and start billing with a 360 integration.",
@@ -25,11 +23,9 @@
     "texthome4":"Scale your business and meet your goals with a data-driven strategy.",
     "cardhome5":"Strategic brand design",
     "texthome5":"Conceptualize your idea and position your value proposition",
-    
     "typetext":"We connect with you and your clients",
     "descripcion1":"You won't be just another number; We will analyze your business to offer you a",
     "descripcion2":"solution to success.",
-
     "btnswipe":"See more",
     "texto1":"It is an innovative solution designed to simplify and streamline payments in any type of transaction...",
     "texto2":"Graphic and audiovisual adaptations for the Colombian public, the essence of each product was taken...",
@@ -40,7 +36,24 @@
     "texto7":"Favor management platform, where you can help your loved ones in Colombia by paying for their medications...",
     "texto8":"An interactive web application for learning English, with Moodle and SCORM 1.2, for schools...",
     "texto9":"Digital platform and mobile application for heavy cargo transportation.",
-
-    "placeholder1":"Name and Last name" 
-
+    "placeholder1":"Name and Last name",
+    "placeholder2":"Company Name",
+    "placeholder3":"Email",
+    "placeholder4":"Phone",
+    "formtext1":"Development of e-commerce and informative websites",
+    "formtext2":"Software outsourcing",
+    "formtext3":"Custom software development and automation",
+    "formtext4":"Strategic brand design",
+    "placeholder5":"Growth-oriented marketing strategies.",
+    "placeholder6":"By clicking here, you confirm your authorization in accordance with the terms of use and privacy policy.",
+    "btnform":"Let's work",
+    "textfooter1":"Scale the potential of your company",
+    "textfooter2":"Processing of Personal Data in the terms of the Privacy Policy and Protection of Personal Data. Privacy notice and cookie policy.",
+    "titulohub":"We maximize the value of organizations",
+    "texthub1":"Comprehensive digital solutions to maximize your value",
+    "texthub2":"Our mission",
+    "texthub3":"It is to develop and implement comprehensive digital solutions that improve the sustainability of projects and maximize the value of our clients.",
+    "texthub4":"We promote your digital transformation, modernize your operation, scale your processes and consolidate your online presence. Give your business the competitive advantage it needs!",
+    "cardshub1":"Our team", 
+    "cardshub2":"They make your solution a reality"
 }

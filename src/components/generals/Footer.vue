@@ -1,13 +1,13 @@
 <script setup>
-
+import {t} from '../../locale/language'
 </script> 
 
 <template>
    <footer>
     <img class="logored" src="../../assets/images/logo-red-lg.svg" alt="Logo-Red">
-    <h2>Escala el potencial de tu empresa</h2>
+    <h2>{{t.textfooter1}}</h2>
     <p class="copy-text">phantera hub ©2024</p>
-    <p class="terminos-text">Tratamiento de Datos Personales en los términos de la Política de Privacidad y Protección de Datos Personales. Aviso de privacidad y política de cookies.</p>
+    <p class="terminos-text">{{t.textfooter2}}</p>
     <div class="socialmedia">
         <img src="../../assets/images/facebook.png" alt="Facebook">
         <img src="../../assets/images/instagram.png" alt="Instragram">

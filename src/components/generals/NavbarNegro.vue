@@ -1,5 +1,5 @@
 <script setup>
-import {availablelanguages, currentlanguagecode, setlanguage, t} from '../../locale/language'
+import {availablelanguages, currentlanguagecode, setlanguage, t, switchlanguage} from '../../locale/language'
 </script> 
 
 <template>
@@ -9,14 +9,12 @@ import {availablelanguages, currentlanguagecode, setlanguage, t} from '../../loc
         <img src="/src/assets/images/logo-black.svg" alt="Logo"/>
       </router-link> 
       <div class="contenedoridiomas">
-        <select class="btnidioma" @change="setlanguage($event.target.value)" v-model="currentlanguagecode">
-             <option :value="lang.code" v-for="lang in availablelanguages" :key="lang.code">{{ lang.name }}</option>
-          </select>
+          <button type="button" class="btn btnswitchmobile" data-bs-toggle="button" @click="switchlanguage">{{ currentlanguagecode }}</button>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-list" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
         </svg>
-      </button>
+      </button> 
       </div>
        
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,9 +41,7 @@ import {availablelanguages, currentlanguagecode, setlanguage, t} from '../../loc
             <router-link class="nav-link" aria-current="page" to="/contact" exact-active-class="active">{{t.contact}}</router-link>
           </li>
           <li class="nav-item d-none d-lg-block">
-            <select class="nav-link boton" @change="setlanguage($event.target.value)" v-model="currentlanguagecode">
-             <option :value="lang.code" v-for="lang in availablelanguages" :key="lang.code">{{ lang.name }}</option>
-             </select>
+             <button type="button" class="btn btnswitch" data-bs-toggle="button" @click="switchlanguage">{{ currentlanguagecode }}</button>
           </li>
         </ul>
        
@@ -67,6 +63,35 @@ border-bottom: 0px !important;
 .navbar-brand img{
   height: 40px;
   width: auto;
+}
+
+.btn.btnswitch{
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px !important;
+}
+
+.btn.btnswitch.active{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn.btnswitchmobile{
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px !important;
+  margin-right: 1rem;
+}
+
+.btn.btnswitchmobile.active{
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .menu{
@@ -97,11 +122,6 @@ background-color: transparent !important;
   border-bottom: 2px solid #f41052;
 }
 
-select{
-  border: 1px solid #000000;
-    border-radius: 50%;
-    padding: 8px 12px !important;
-}
 
 .dropdown-menu{
     background-color: #ffffff;
@@ -124,7 +144,7 @@ background-color: #f41052;
 }
 
 @media (min-width: 768px){
-  .btnidioma{
+  .btnswitchmobile{
     display: none;
   }
 }

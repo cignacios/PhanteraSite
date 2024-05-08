@@ -10,7 +10,7 @@ import {t} from '../../locale/language'
 
 <template>
     <div class="container text-center micontenedor">
-        <vue-typewriter-effect class="text-uppercase fw-bold titulo" :strings="Holas" />
+        <vue-typewriter-effect class="text-uppercase fw-bold titulo" :strings="[t.typetext]" />
         <p class="descripcion">{{t.descripcion1}}<br>{{t.descripcion2}}</p>
     </div>
 </template>
