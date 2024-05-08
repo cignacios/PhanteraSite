@@ -1,11 +1,11 @@
 <script setup>
-
+import {t} from '../../locale/language'
 
 </script> 
  
 <template>
     <div class="contenedor">
-        <h1>Desarrollo de e-commerce y websites informativos</h1>
+        <h1>{{t.tituloecommerce}}</h1>
         <video class="d-none d-md-block" src="../../assets/videos/Ecommerce-Home.mp4" autoplay muted loop></video>
         <video class="d-block d-sm-none" src="../../assets/videos/Ecommerce-Mobile.mp4" autoplay muted loop></video>
         </div>

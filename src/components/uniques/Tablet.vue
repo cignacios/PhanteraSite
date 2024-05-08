@@ -1,4 +1,5 @@
 <script setup>
+import {t} from '../../locale/language'
 
 
 </script> 
@@ -9,11 +10,8 @@
     <div class="row align-items-end">
         <div class="col-md-9">
             <div class="contenedor">
-
                 <img class=" back" src="../../assets/images/screenshotHomePage.png" alt=""/>
-            </div>
-                
-                       
+            </div>           
         </div>
 
         <div class="col-md-3">
@@ -27,45 +25,44 @@
             speed="500"
             loop="true" 
         >
-        
+         
             <swiper-slide>
                 <div class="row align-items-center">
-                <p><b>Diseñamos</b> sitios web atractivos y optimazados para conversión</p>
-                <p class="sub-titulo">Desde e-coomerce hasta portales informativos, priorizamos la <b>usabilidad</b> y el <b>SEO</b> para destacar tu marca en línea.</p>                
+                <p><b>{{t.textslide1}}</b> {{t.textslide2}}</p>
+                <p class="sub-titulo">{{t.textslide3}} <b>{{t.textslide4}}</b> {{t.textslide5}} <b>SEO</b> {{t.textslide6}}</p>                
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="row align-items-center text-center">
-                  <h2 class="titulo2">Incremento en ventas online</h2>
-                  <p>Las plataformas de e-ccomerce estan diseñadas para facilitar el proceso de compra, lo que resulta en un aumento de las ventas.</p>                  
+                  <h2 class="titulo2">{{t.textslide7}}</h2>
+                  <p>{{t.textslide8}}</p>                  
                 </div> 
             </swiper-slide>
 
             <swiper-slide>    
                 <div class="row align-items-center">
-                  <h2 class="titulo3">Visibilidad mejorada</h2>
-                  <p>Con SEO y un diseño web responsivo, tu sitio web ganará visibilidad, atrayendo a más visitantes.</p>                  
+                  <h2 class="titulo3">{{t.textslide9}}</h2>
+                  <p>{{t.textslide10}}</p>                  
                 </div> 
                                 
             </swiper-slide>
 
             <swiper-slide>    
                 <div class="row align-items-center">
-                  <h2 class="titulo4">Engagement del usuario</h2>
-                  <p>A través de un diseño interactivo y contenido relevante, fomentamos la participación del usuario, mejorando las tasas de retención.</p>                  
+                  <h2 class="titulo4">{{t.textslide11}}</h2>
+                  <p>{{t.textslide12}}</p>                  
                 </div> 
                                 
             </swiper-slide>
 
             <swiper-slide>    
                 <div class="row align-items-center"> 
-                  <h2 class="titulo5">Gestión eficiente</h2>
-                  <p>Nuestros sistemas permiten una gestión fácil de contenido y de los productos, simplificando las operaciones diarias.</p>                  
-                </div> 
+                  <h2 class="titulo5">{{t.textslide13}}</h2>
+                  <p>{{t.textslide14}}</p>                  
+                </div>  
                                 
             </swiper-slide>
-
 
             </swiper-container>
         </div>
