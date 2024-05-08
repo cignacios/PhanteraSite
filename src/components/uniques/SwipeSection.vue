@@ -1,5 +1,6 @@
 <script>
-
+import {t} from '../../locale/language'
+console.log(t.texto1.value) 
 </script> 
 
 <template>
@@ -17,7 +18,7 @@
                 slidesPerView:2
               },  
               '768':{
-                slidesPerView:3
+                slidesPerView:3 
               },
               '992':{
                 slidesPerView:5 
@@ -33,8 +34,8 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2 text-capitalize">Efipay</h3>
-                        <p class="mb-3">Es una solución innovadora diseñada para simplificar agilizar los pagos en cualquier tipo de transa...</p>
-                        <button type="button" class="btn btn-outline-light">Ver más</button>
+                        <p class="mb-3">{{t.texto1}}</p>
+                        <button type="button" class="btn btn-outline-light">{{t.btnswipes}}</button>
                     </div>
                     </div> 
                 </div>
@@ -50,7 +51,7 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Ualá</h3>
-                        <p class="mb-3">Adaptaciones gráficas y audiovisuales para el público colombiano, se tomo la esencia de cada product...</p>
+                        <p class="mb-3">{{t.texto2}}</p>
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
@@ -66,7 +67,7 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Levely</h3>
-                        <p class="mb-3">Un sistema de gestión de aprendizaje que ayuda a crear una amplia gama de cursos, permitiendo accede...</p>
+                        <p class="mb-3">{{t.texto3}}</p>
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
@@ -84,7 +85,7 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Klipclub</h3>
-                        <p class="mb-3">Plataforma de transmisión digital para eventos relacionados con la música.</p>
+                        <p class="mb-3">{{t.texto4}}</p>
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div> 
@@ -101,7 +102,7 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Accedo</h3>
-                        <p class="mb-3">es un líder ágil y escalable en nearshore para las necesidades de soporte al cliente en inglés, espa...</p>
+                        <p class="mb-3">{{t.texto5}}</p>
                         <button type="button" class="btn btn-outline-light">ver más</button>
                     </div>
                 </div> 
@@ -117,7 +118,7 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Alltruismo</h3>
-                        <p class="mb-3">Plataforma de crowdfunding para organizaciones sin fines de lucro.</p>
+                        <p class="mb-3">{{t.texto6}}</p>
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
@@ -134,7 +135,7 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Yateayudo</h3>
-                        <p class="mb-3">es un líder ágil y escalable en nearshore para las necesidades de soporte al cliente en inglés, espa...</p>
+                        <p class="mb-3">{{t.texto7}}</p>
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div>
@@ -151,7 +152,7 @@
                     </div>
                     <div class="col-md-6 textos">
                         <h3 class="mb-2  text-capitalize">Ingles De Una</h3>
-                        <p class="mb-3">Una aplicación web interactiva para el aprendizaje del inglés, con Moodle y SCORM 1.2, para escuelas...</p>
+                        <p class="mb-3">{{t.texto8}}</p>
                         <button type="button" class="btn btn-outline-light">Ver más</button>
                     </div>
                 </div> 
@@ -167,7 +168,7 @@
                         </div>
                         <div class="col-md-6 textos">
                             <h3 class="mb-2  text-capitalize">Tutrok</h3>
-                            <p class="mb-3">Plataforma digital y aplicación móvil para el transporte de carga pesada.</p>
+                            <p class="mb-3">{{t.texto9}}</p>
                             <button type="button" class="btn btn-outline-light">Ver más</button>
                         </div>
                     </div>

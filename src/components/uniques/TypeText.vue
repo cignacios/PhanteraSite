@@ -1,15 +1,21 @@
 <script setup>
+import {ref} from 'vue'
 import VueTypewriterEffect from "vue-typewriter-effect";
+import {t} from '../../locale/language'
+
+
+
+//console.log('prueba', {t.typetext})  
 </script>
 
 <template>
     <div class="container text-center micontenedor">
-        <vue-typewriter-effect class="text-uppercase fw-bold titulo" :strings="['conectamos contigo y tus clientes']" />
-        <p class="descripcion">No serás solo otro número; analizaremos tu negocio para ofrecerte una <br> solución hacia el exito.</p>
+        <vue-typewriter-effect class="text-uppercase fw-bold titulo" :strings="Holas" />
+        <p class="descripcion">{{t.descripcion1}}<br>{{t.descripcion2}}</p>
     </div>
 </template>
 
-<style scoped>
+<style scoped> 
 
 .micontenedor{
     max-width: 52% !important;

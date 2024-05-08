@@ -1,5 +1,5 @@
 <script setup>
-
+import {t} from '../../locale/language'
 const props=defineProps({placeholdercolor:String, backgroundcolor:String, textocolor:String, labelcolor:String, checkboxcolor:String});
 console.log(props);
 </script>
@@ -13,7 +13,7 @@ console.log(props);
                 <div class="col-lg-6 derecha order-1 order-lg-2">
                     <form :class=" backgroundcolor " class="contenedor-form">
                             <div class="mb-3">
-                                <input type="email" class="form-control" :class="[placeholdercolor, textocolor]" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido"/> 
+                                <input type="email" class="form-control" :class="[placeholdercolor, textocolor]" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{t.placeholder1}}"/> 
                             </div>
                             <div class="mb-3">
                                 <input type="password" class="form-control" :class="[placeholdercolor, textocolor]"  id="exampleInputPassword1" placeholder="Nombre de empresa">
