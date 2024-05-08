@@ -1,11 +1,12 @@
 <script setup>
+import {t} from '../../locale/language'
 
 
 </script> 
  
 <template>
     <div class="contenedor"> 
-        <h1>Desarrollo de software a la medida y automatización</h1>
+        <h1>{{t.titulocustompage}}</h1>
         <video class="d-none d-md-block" src="../../assets/videos/Custom-Desktop.mp4" autoplay muted loop></video>
         <video class="d-block d-sm-none" src="../../assets/videos/Custom-Mobile.mp4" autoplay muted loop></video>
         </div>

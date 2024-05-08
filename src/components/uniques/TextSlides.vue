@@ -1,5 +1,5 @@
 <script setup>
-
+import {t} from '../../locale/language'
 
 </script> 
 
@@ -17,29 +17,29 @@
         
             <swiper-slide>
                 <div class=" text-center">
-                <p><b>Transformamos</b> procesos con tenología metodologías ágiles ofreciendo <b>soluciones personalizadas</b> que impulsan la eficiencia y productivad empresarial.</p>                  
+                <p><b>{{t.textcustom1}}</b> {{t.textcustom2}} <b>{{t.textcustom3}}</b> {{t.textcustom4}}</p>                  
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="text-center">
-                <h2>Incremento en ventas online</h2>
-                <p>Las plataformas de e-commerce están diseñadas para facilitar el proceso de compra, lo que resulta en un aumento de las ventas</p>                  
+                <h2>{{t.textcustom5}}</h2>
+                <p>{{t.textcustom6}}</p>                  
                 </div> 
             </swiper-slide>
 
             <swiper-slide>    
                 <div class=" text-center">
-                <h2>Visibilidad mejorada</h2>
-                <p>Con SEO y un diseño web responsivo, tu sitio web ganará visibilidad, atrayendo a más visitantes</p>                  
+                <h2>{{t.textcustom7}}</h2>
+                <p>{{t.textcustom8}}</p>                  
                 </div> 
                                 
             </swiper-slide>
 
             <swiper-slide>    
                 <div class="text-center">
-                <h2>Engagement del usuario</h2>
-                <p>A través de un diseño interactivo y contenido relevante, fomentos la participación del usuario, mejorando las tasas de retención.</p>                  
+                <h2>{{t.textcustom9}}</h2>
+                <p>{{t.textcustom10}}</p>                  
                 </div> 
                                 
             </swiper-slide>
@@ -47,9 +47,9 @@
             <swiper-slide>    
                 <div class="text-center">
                 
-                <h2>Gestión eficiente</h2>
-                <p>Nuestros sistemas permiten una gestión fácil de contenido y productos, simplificando las operaciones diarias.</p>                  
-                </div> 
+                <h2>{{t.textcustom11}}</h2>
+                <p>{{t.textcustom12}}</p>                  
+                </div>  
             </swiper-slide>            
                         
         </swiper-container>
