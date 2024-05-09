@@ -1,11 +1,12 @@
 <script setup>
+import {t} from '../../locale/language'
 
 
 </script> 
  
 <template>
     <div class="contenedor"> 
-        <h1>Estrategias de marketing orientadas al crecimiento</h1>
+        <h1>{{t.titulomarketingpage}}</h1>
         <video class="d-none d-md-block" src="../../assets/videos/Marketing-Desktop.mp4" autoplay muted loop></video>
         <video class="d-block d-sm-none" src="../../assets/videos/Marketing-Mobile.mp4" autoplay muted loop></video>
         </div>

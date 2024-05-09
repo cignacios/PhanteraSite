@@ -1,21 +1,21 @@
 <script setup>
-
+import {t} from '../../locale/language'
 
 </script> 
  
 <template>
     <div class="contenedor">
-        <h1>Subcontratación de software</h1>
-        <p class="text-center"><b>Accede a expertos globales</b> sin los costos de expasión interna. Desde desarrollo hasta soporte, <b>garantizamos soluciones</b> de calidad alineadas con tus objetivos. Escala según necesites, enfócate en tu negocio principal.</p>
+        <h1>{{t.titulooutsourcing}}</h1>
+        <p class="text-center"><b>{{t.textoursourcing1}}</b> {{t.textoursourcing2}} <b>{{t.textoursourcing3}}</b> {{t.textoursourcing4}}</p>
         
     <div class="container p-4">
-    <div class="d-grid parent">
+    <div class="d-grid parent"> 
     
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-1.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Acceso a expertos globales</h5>
-            <p class="card-text">Amplía tu equipo con talento especializado en tecnología sin el coste de contratación directa.</p>
+            <h5 class="card-title">{{t.textoursourcing5}}</h5>
+            <p class="card-text">{{t.textoursourcing6}}</p>
             
             </div>
         </div>
@@ -24,8 +24,8 @@
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-2.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Costo-eficiencia</h5>
-            <p class="card-text">Reduce significativamente los costos operativos y de desarrollo al aprovechar la subcontratación.</p>
+            <h5 class="card-title">{{t.textoursourcing7}}</h5>
+            <p class="card-text">{{t.textoursourcing8}}</p>
             
             </div>
         </div>
@@ -33,8 +33,8 @@
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-3.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Flexibilidad y escalabilidad</h5>
-            <p class="card-text">Ajusta fácilmente el tamaño de tu equipo de desarrollo según las necesidades del proyecto.</p>
+            <h5 class="card-title">{{t.textoursourcing9}}</h5>
+            <p class="card-text">{{t.textoursourcing10}}</p>
             
             </div>
         </div>
@@ -42,8 +42,8 @@
         <div class="card">
             <div class="card-body p-0">
             <img src="../../assets/images/card-4.webp" alt="..." class="img-fluid"/>
-            <h5 class="card-title">Enfoque en el core bussiness</h5>
-            <p class="card-text">Libera recursos internos para que puedas concentrarte en las áreas clave de tu negocio, mientras nosotros nos ocupamos del desarrollo tecnológico.</p>
+            <h5 class="card-title">{{t.textoursourcing11}}</h5>
+            <p class="card-text">{{t.textoursourcing12}}</p>
         </div>
         </div>
    

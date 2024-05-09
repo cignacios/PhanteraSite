@@ -1,4 +1,5 @@
 <script setup>
+import {t} from '../../locale/language'
 
 
 </script> 
@@ -17,29 +18,29 @@
         
             <swiper-slide>
                 <div class=" text-center">
-                <p>Una estrategia centrada en el crecimiento capitaliza oportunidades, optimizando canales digitales, personalizando comunicación y analizando datos para asegurar rendimiento óptimo y crecimiento sostenido en un mercado competitivo.</p>                  
+                <p>{{t.textmarketing1}}</p>                  
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="text-center">
-                <h2>Comprensión y segmentación del cliente</h2>
-                <p>Entender profundamente a la audiencia del nuestro cliente para personalizar los esfuerzos de marketing de manera efectiva.</p>                  
+                <h2>{{t.textmarketing2}}</h2>
+                <p>{{t.textmarketing3}}</p>                  
                 </div> 
             </swiper-slide>
 
             <swiper-slide>    
                 <div class=" text-center">
-                <h2>Enfoque integrado en múltiples canales </h2>
-                <p> Utilizar una combinación de canales digitales (SEM, SEO, Redes Sociales, Paid Media y landing pages) para un alcance integral.</p>                  
+                <h2>{{t.textmarketing4}}</h2>
+                <p>{{t.textmarketing5}}</p>                  
                 </div> 
                                 
             </swiper-slide>  
 
             <swiper-slide>    
                 <div class=" text-center">
-                <h2>Toma de decisiones basada en datos</h2>
-                <p>Aprovechar el análisis de datos para informar la estrategia y medir el éxito.</p>                  
+                <h2>{{t.textmarketing6}}</h2>
+                <p>{{t.textmarketing7}}</p>                  
                 </div> 
                                 
             </swiper-slide>        
