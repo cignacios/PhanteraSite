@@ -134,7 +134,8 @@ import {t} from '../../locale/language'
 
     h5 {
         text-align: left;
-        margin-top: 10px;
+        margin-top: 10px; 
+        margin-bottom: 0px;
     }
 
     p {

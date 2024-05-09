@@ -6,7 +6,7 @@ import {t} from '../../locale/language'
 <template>
     <div class="contenedor">
         <h1>{{t.titulooutsourcing}}</h1>
-        <p class="text-center"><b>{{t.textoursourcing1}}</b> {{t.textoursourcing2}} <b>{{t.textoursourcing3}}</b> {{t.textoursourcing4}}</p>
+        <p class="text-center mb-4"><b>{{t.textoursourcing1}}</b> {{t.textoursourcing2}} <b>{{t.textoursourcing3}}</b> {{t.textoursourcing4}}</p>
         
     <div class="container p-4">
     <div class="d-grid parent"> 
@@ -67,7 +67,7 @@ h1{
     text-transform: uppercase;
     margin: 0 auto;
     font-size: 3.3rem;
-    font-weight: 800; 
+    font-weight: 700; 
     padding: 3rem 0rem;
 }
 

@@ -103,11 +103,11 @@ hr{
 }
 
 ::placeholder {
-        color: rgba(255, 255, 255, 0.5); 
+        color: rgba(255, 255, 255, 0.75); 
     }
  
 .placeholderazul::placeholder {
-    color: rgba(255, 255, 255, 0.5); 
+    color: rgba(255, 255, 255, 0.75);  
 }    
 
 .placeholderblanco::placeholder {
@@ -130,8 +130,8 @@ label {
 } 
 
 .btn-danger:hover{
-    background-color: #000315;
-    color: #f41052;
+    background-color: #be0c3e;
+    color: #ffffff;  
 } 
 
 .contenedorazul{

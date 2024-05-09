@@ -28,7 +28,7 @@ h1{
     text-transform: uppercase;
     margin: 0 auto;
     font-size: 3.3rem;
-    font-weight: 900;
+    font-weight: 700;
     width: 53rem;
     overflow-wrap: break-word;
     padding: 3rem 0rem;

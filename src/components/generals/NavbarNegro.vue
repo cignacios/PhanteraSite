@@ -3,7 +3,7 @@ import {availablelanguages, currentlanguagecode, setlanguage, t, switchlanguage}
 </script> 
 
 <template>
-<nav class="navbar navbar-expand-lg menu fixed-top">
+<nav class="navbar navbar-expand-md menu fixed-top"> 
     <div class="container">
       <router-link class="navbar-brand" to="/">
         <img src="/src/assets/images/logo-black.svg" alt="Logo"/>
@@ -56,6 +56,7 @@ import {availablelanguages, currentlanguagecode, setlanguage, t, switchlanguage}
   padding: 20px 0px;
 }
 
+
 .navbar-brand{
 border-bottom: 0px !important;
 }
@@ -66,31 +67,32 @@ border-bottom: 0px !important;
 }
 
 .btn.btnswitch{
-  background-color: #000000;
-  color: #ffffff;
+  background-color: transparent;
+  color: #000000; 
   border-radius: 50%;
   width: 40px;
   height: 40px;
   padding: 5px !important;
+  border: 2px solid #000000;
 }
 
 .btn.btnswitch.active{
-  background-color: #ffffff;
   color: #000000;
 }
 
 .btn.btnswitchmobile{
-  background-color: #000000;
-  color: #ffffff;
+  background-color: transparent;
+  color: #000000;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   padding: 5px !important;
   margin-right: 1rem;
+  border: 2px solid #000000;
 }
 
 .btn.btnswitchmobile.active{
-  background-color: #ffffff;
+  background-color: transparent;
   color: #000000;
 }
 
@@ -141,6 +143,20 @@ background-color: #f41052;
 .nav-link{
     font-size: 20px;
 }
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus{
+box-shadow: none;
+}
+
+.navbar-nav{ 
+  border-bottom:5px solid #f41052;
+  background-color: #f4f7f8; 
+}
+
 }
 
 @media (min-width: 768px){

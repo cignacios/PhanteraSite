@@ -2,7 +2,7 @@
 import {availablelanguages, currentlanguagecode, setlanguage, t, switchlanguage} from '../../locale/language'
 </script>
 
-<template><nav class="navbar navbar-expand-lg menu fixed-top">
+<template><nav class="navbar navbar-expand-md menu fixed-top">
     <div class="container">
       <router-link class="navbar-brand" to="/">
         <img src="/src/assets/images/logo-white.svg" alt="Logo"/>
@@ -118,8 +118,8 @@ background-color: #f41052;
 }
 
 .btn.btnswitch.active{
-  background-color: #ffffff;
-  color: #000000;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 .btn.btnswitchmobile{
@@ -133,8 +133,8 @@ background-color: #f41052;
 }
 
 .btn.btnswitchmobile.active{
-  background-color: #ffffff;
-  color: #000000;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 
@@ -142,6 +142,20 @@ background-color: #f41052;
 .nav-link{
     font-size: 20px;
 }
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus{
+box-shadow: none;
+}
+
+.navbar-nav{ 
+  border-bottom:5px solid #f41052;
+  background-color: #000315; 
+}
+
 }
 
 @media (min-width: 768px){
