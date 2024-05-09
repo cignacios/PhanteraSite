@@ -1,5 +1,5 @@
 <script setup>
-
+import {t} from '../../locale/language'
 
 </script> 
 
@@ -17,29 +17,29 @@
         
             <swiper-slide>
                 <div class=" text-center">
-                <p>El proceso <b>crea identidades de marcas coherentes</b> mediante estrategia y creatividad. incluye análisis, diseño visual comunicación y mantenimiento.</p>                  
+                <p>{{t.textbranding1}} <b>{{t.textbranding2}}</b> {{t.textbranding3}}</p>                  
                 </div>
             </swiper-slide>
 
             <swiper-slide>
                 <div class="text-center">
-                <h2>Identidad visual</h2>
-                <p>Incluye elementos como el logotipo, la paleta de colores y la tipografía, que juntos crean una imagen coherente y reconocible de la marca.</p>                  
+                <h2>{{t.textbranding4}}</h2>
+                <p>{{t.textbranding5}}</p>                  
                 </div> 
             </swiper-slide>
 
             <swiper-slide>    
                 <div class=" text-center">
-                <h2>consistencia y coherencia de la marca</h2>
-                <p>Asegura que todos los aspectos de la marca, desde el marketing hasta el embalaje y la publicidad, mantengan un estilo y mensaje uniformes que reflejen los valores y la personalidad de la marca.</p>                  
+                <h2>{{t.textbranding6}}</h2>
+                <p>{{t.textbranding7}}</p>                  
                 </div> 
                                 
             </swiper-slide>  
 
             <swiper-slide>    
                 <div class=" text-center">
-                <h2>Estrategia de posicionamiento de marca</h2>
-                <p>Define cómo la marca se diferencia de sus competidores y cómo se posiciona en la mente de los consumidores. Incluye la propuesta de valor, el tono de voz y la personalidad de la marca.</p>                  
+                <h2>{{t.textbranding8}}</h2>
+                <p>{{t.textbranding9}}</p>                  
                 </div> 
                                 
             </swiper-slide>        

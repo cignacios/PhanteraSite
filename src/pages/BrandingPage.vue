@@ -1,6 +1,6 @@
 <script setup>
 import ContenidoBranding from '@/components/uniques/ContenidoBranding.vue'
-import TextSlidesB3 from '@/components/uniques/TextSlidesB.vue';
+import TextSlidesB from '@/components/uniques/TextSlidesB.vue';
 import Contact from '@/components/generals/Contact.vue'
 
 const backgroundcolor='contenedorblanco'
@@ -12,7 +12,7 @@ const checkboxcolor="checkcolorblanco"
  
 <template>
 <ContenidoBranding/>
-<TextSlidesB3/>
+<TextSlidesB/>
 <Contact :backgroundcolor="backgroundcolor" :placeholdercolor="placeholder" :textocolor="textocolor" :labelcolor="labelcolor" :checkboxcolor="checkboxcolor"/>
 </template>
 

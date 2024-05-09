@@ -1,11 +1,11 @@
 <script setup>
-
+import {t} from '../../locale/language'
 
 </script> 
  
 <template>
     <div class="contenedor"> 
-        <h1>Diseño estratégico de marca</h1>
+        <h1>{{t.titulobranding}}</h1>
             <swiper-container
             slides-per-view="1"
             space-between="10"
